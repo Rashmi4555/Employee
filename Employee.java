@@ -18,7 +18,7 @@ public class Employee {
         System.out.println("Phoneno: "+phoneno);
     }
     public static void main(String[]args){
-        Employee emp1 = new Employee("xyz",101,5000.0);
+        Employee emp1 = new Employee("xyz",101,5000.0,18,765432189);
         emp1.displayInfo();
     }
 }
